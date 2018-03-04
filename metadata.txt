@@ -1,0 +1,35 @@
+[general]
+name=Scalgo Live
+qgisMinimumVersion=2.0
+
+#not yet for qgis 3
+qgisMaximumVersion=2.99
+
+description=Connect to the SCALGO Live WMTS servers and get access to the threshold settings for individual layers.
+version=0.1
+author=SCALGO
+email=support@scalgo.com
+
+about=Plugin allowing easy access to SCALGO Live layers.
+
+tracker=https://github.com/scalgo/scalgo-live-qgis/issues
+repository=https://github.com/scalgo/scalgo-live-qgis
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=scalgo,wmts,qgis,threshold,flooding,hydrology
+
+homepage=https://scalgo.com
+category=Plugins
+icon=icon.ico
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

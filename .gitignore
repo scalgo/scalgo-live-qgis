@@ -1,0 +1,4 @@
+*.pyc
+.env
+.vscode
+help/build
