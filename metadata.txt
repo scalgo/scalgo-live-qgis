@@ -5,12 +5,12 @@ qgisMinimumVersion=2.0
 #not yet for qgis 3
 qgisMaximumVersion=2.99
 
-description=Connect to the SCALGO Live WMTS servers and get access to the threshold settings for individual layers.
+description=Get access to SCALGO Live data and hydrological analyses inside QGIS.
 version=0.1
 author=SCALGO
 email=support@scalgo.com
 
-about=Plugin allowing easy access to SCALGO Live layers.
+about=<p><a href="https://scalgo.com/live-flood-risk">SCALGO Live</a> is a national flood risk platform for working with climate adaptation, urban planning, emergency management and administration of watercourses.</p><p>The various analyses and data layers in SCALGO Live are served using an extended version of WMTS to allow the user to specify arbitrary-valued parameters to a particular analysis (e.g. the level of the sea when investigating sea-level floodrisk or the amount of precipitation in a cloudburst event).</p><p>This plugin interacts with the SCALGO Live backend to handle authentication and selection of your specific SCALGO Live instance and allows you to specify the required extra parameters for the layers that needs it. It then hands each layer of to the WMTS sub-system within QGIS.</p><p>A SCALGO Live user account is required to use this plugin</a>.</p>
 
 tracker=https://github.com/scalgo/scalgo-live-qgis/issues
 repository=https://github.com/scalgo/scalgo-live-qgis
